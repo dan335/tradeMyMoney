@@ -13,7 +13,5 @@ export default function about(db, discord, alpaca, msg) {
 
   m += "Bot source at <https://github.com/dan335/tradeMyMoney>.  It makes trades using Alpaca's API. <https://alpaca.markets>\n\n";
 
-  m += "Oh yeah.  It's probably fake money so don't worry about losing it.  The bot works with real money too but unless some crazy person cloned the bot and deposited their own money it's fake."
-
   msg.channel.send(m);
 }
