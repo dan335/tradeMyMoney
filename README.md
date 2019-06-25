@@ -9,3 +9,5 @@ Trades are made with Alpaca's API. https://alpaca.markets
 Works with real or paper money.
 
 Check package.json to see environment variables that need to be set before running.
+
+https://discordapp.com/oauth2/authorize?&client_id=592921750296199202&scope=bot to add it to your Discord channel.
