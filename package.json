@@ -1,0 +1,24 @@
+{
+  "name": "Trade My Money Bot",
+  "version": "1.0.0",
+  "description": "Can Discord beat the stock market?  Trade stocks and make me money.  Or lose it.  Please don't lose it all.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env ALPACA_KEY_ID=123 ALPACA_SECRET_KEY=123 ALPACA_PAPER=true DISCORD_TOKEN=123 MONGO_URL=mongo://localhost MONGO_DB=tradebot nodemon --exec ./node_modules/.bin/babel-node index.js"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^1.0.3",
+    "bufferutil": "^4.0.1",
+    "date-fns": "^1.30.1",
+    "discord.js": "^11.5.1",
+    "mongodb": "^3.2.7"
+  }
+}
