@@ -1,5 +1,5 @@
 {
-  "name": "Trade My Money Bot",
+  "name": "TradeMyMoneyBot",
   "version": "1.0.0",
   "description": "Can Discord beat the stock market?  Trade stocks and make me money.  Or lose it.  Please don't lose it all.",
   "main": "index.js",
