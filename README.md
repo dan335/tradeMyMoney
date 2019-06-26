@@ -9,3 +9,5 @@ Made for Discord's hack week.
 Trades are made with Alpaca's API. https://alpaca.markets  Works with real or paper money.
 
 https://discordapp.com/oauth2/authorize?&client_id=592921750296199202&scope=bot to add it to your Discord channel.   Join https://discord.gg/srjG8hF to try it out.
+
+See package.json for environment variables needed.
